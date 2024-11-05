@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <title>bira_website</title>
+</head>
+<body>
+    <img src="images/beer_photo.jpg" alt="Лого" style="width: 100%; max-width: 600px;">
+    <h2>Поръчай онлайн:</h2>
+    <form action="submit.php" method="post">
+        <label for="name">Име:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="amount">Количество:</label>
+        <input type="number" id="amount" name="amount" required min="1" max="100"><br><br>
+
+        <label for="phone_number">Телефонен номер:</label>
+        <input type="tel" id="phone_number" name="phone_number" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="home_address">Адрес:</label>
+        <input type="text" id="home_address" name="home_address" required><br><br>
+        
+        <button type="submit">Поръчай</button>
+    </form>
+</body>
+</html>
