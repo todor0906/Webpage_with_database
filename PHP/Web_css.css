@@ -1,0 +1,95 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #332;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+button{
+    width: 130px;
+    font-family: "Grenze Gotisch", serif;
+    display: block;
+    margin: 0 auto;
+    font-size: x-large;
+    
+}
+
+h2, h3, h4, h5 {
+    margin: 0.5rem 0;
+}
+
+h1 {
+    font-size: xx-large;
+    font-family: "Grenze Gotisch", serif;
+}
+
+label {
+    font-size: xx-large;
+    font-family: "Grenze Gotisch", serif;
+    margin-left: 50px;
+}
+
+input {
+    
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+h6 {
+    font-size: xxx-large;
+    font-family: 'Creepster', system-ui;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-style: Arial;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.product-list, .cart {
+    width: 45%;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+img {
+    width: auto;
+    height: 400px;
+    margin-top: 5px;
+}
+

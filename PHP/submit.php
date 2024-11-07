@@ -18,7 +18,7 @@ $home_address = $_POST['home_address'];
 
 $sql = "INSERT INTO order_user (name, amount, phone_number, email, home_address) VALUES ('$name', '$amount', '$phone_number', '$email', '$home_address')";
 if ($conn->query($sql) === TRUE) {
-    echo "Поръчката е успешна :)";
+    echo "Благодарим Ви, поръчката е успешна :)";
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }
