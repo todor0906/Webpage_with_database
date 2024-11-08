@@ -9,7 +9,6 @@
     font-weight: 400;
 }
 
-
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
@@ -48,11 +47,15 @@ label {
     margin-left: 50px;
 }
 
-input {
-    
-    float: right;
-    margin-right: 50px;
-    margin-top: 20px;
+input, select {
+    font-size: large;
+    margin-left: 50px;
+    display: block;
+    margin-bottom: 20px;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: calc(100% - 100px);
 }
 
 h6 {
