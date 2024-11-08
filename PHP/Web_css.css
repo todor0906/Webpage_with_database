@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'Creepster';
+    src: url('fonts/Creepster-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Grenze Gotisch';
+    src: url('fonts/GrenzeGotisch-VariableFont_wght.ttf') format('truetype');
+    font-weight: 400;
+}
+
+
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
@@ -27,7 +39,7 @@ h2, h3, h4, h5 {
 
 h1 {
     font-size: xx-large;
-    font-family: "Grenze Gotisch", serif;
+    font-family: "Creepster", cursive;
 }
 
 label {
